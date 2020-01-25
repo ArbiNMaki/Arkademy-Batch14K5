@@ -1,0 +1,1 @@
+select tch.name as kasir, tp.name as product, tc.name as kategori, tp.price from tabel_product as tp left join tabel_category tc on tp.id_category = tc.id left join tabel_cashier tch on tp.id_cashier = tch.id where tp.id_category = tc.id and tp.id_cashier = tch.id ORDER BY kasir ASC
