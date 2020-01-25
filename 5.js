@@ -31,4 +31,3 @@ function findHighestProfit(dataSahamPtX){
   console.log(findHighestProfit([10, 2, 11, 20, 3, 5]));
  
   console.log(findHighestProfit([33, 29, 11, 3]));
-  
